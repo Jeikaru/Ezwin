@@ -1,0 +1,18 @@
+local whitelistUserIDs = {
+    ["2471823097"] = true,
+    ["1466221644"] = true,
+    ["964358"] = true,
+    ["2850829432"] = true,
+    ["2439642060"] = true,
+    ["359770071"] = true,
+    ["196030986"] = true,
+    ["403529565"] = true,
+    ["1024379169"] = true,
+    ["2246474354"] = true
+}
+
+if whitelistUserIDs[tostring(game.Players.LocalPlayer.UserId)] then
+    print("User Whitelisted: " .. game.Players.LocalPlayer.Name)
+else
+    game.Players.LocalPlayer:Kick("You are not Whitelisted Pay Me $7 Paypal - Jeikaru")
+end
