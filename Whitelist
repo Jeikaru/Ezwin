@@ -9,6 +9,7 @@ local whitelistUserIDs = {
     ["403529565"] = true,
     ["1024379169"] = true,
     ["2246474354"] = true,
+    ["542184794"] = true,
     ["3292623171"] = true
 }
 
