@@ -11,7 +11,8 @@ local whitelistUserIDs = {
     ["2246474354"] = true,
     ["542184794"] = true,
     ["1425120820"] = true,
-    ["3292623171"] = true
+    ["3292623171"] = true,
+    ["2842476047"] = true
 }
 
 if whitelistUserIDs[tostring(game.Players.LocalPlayer.UserId)] then
